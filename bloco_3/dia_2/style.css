@@ -1,0 +1,40 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+ul {
+    background-color: turquoise;
+}
+
+.background-p-ul {
+    background-color: tan;
+}
+
+body {
+    font: 16px;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration: underline overline dotted white; 
+}
+
+li {
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+}
+
+#yellow {
+    background-color: yellow;
+}
+#red {
+    background-color: red;
+}
+#brown {
+    background-color: brown;
+}
