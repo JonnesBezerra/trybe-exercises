@@ -1,0 +1,20 @@
+/* Agrupando Seletores */
+
+h1, p, ol, ul {
+    text-align: center;
+    list-style: none;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* ul {
+    list-style:none;
+    text-align: center;
+} */
