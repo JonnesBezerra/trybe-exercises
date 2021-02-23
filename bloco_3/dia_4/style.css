@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul:nth-child(1) li:nth-child(2), ul:nth-child(1) li:nth-child(3) {
+    display: inline-block;
+}
+ul:nth-child(1) li:nth-child(1) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+}
+
+.second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+}
+
+.third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+}
+
+ul li {
+    display: inline;
+}
