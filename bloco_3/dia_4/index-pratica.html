@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="widtd=device-widtd" />
     <style>
         * {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,6 +11,9 @@
         h1 {
             text-align: center;
             
+        }
+        h2 {
+            margin-top: 5%;
         }
 
         article {
@@ -20,16 +23,41 @@
         nav {
             margin-left: 10%;
         }
+
         a {
             color: darkgreen;
             margin-right: 20px;
         }
 
-        img {
-            margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
+        p {
+            width: 90%;
         }
+
+        /* I took this CSS Style table from W3SCHOOLS Website: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro */
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 350px;
+        }
+
+        table:first-of-type {
+            margin-top: 30px;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        
     </style>
 </head>
 
@@ -44,11 +72,48 @@
         <a href="#contact">Contato</a>
     </nav>
     <article>
-        <img src="https://i.natgeofe.com/n/f46158fc-9bf2-4453-8a15-6b11b323c08e/Peacock-mantis.jpg?wp=1&w=636&h=424" alt="Stomatopoda">
         <h2>Fatos sobre o Stomatopoda</h2>
+        <img src="https://i.natgeofe.com/n/f46158fc-9bf2-4453-8a15-6b11b323c08e/Peacock-mantis.jpg?wp=1&w=636&h=424" alt="Stomatopoda">
         <section>
-            
+            <h3>Informações Gerais</h3>
+            <p>Stomatopoda (ou estomatópode), chamados popularmente de tamarutacas ou de lacraias-do-mar no Brasil, é uma ordem de crustáceos marinhos da subclasse Hoplocarida, que agrupa cerca de 400 espécies, caracterizadas principalmente pela morfologia da segunda pata torácica, que é modificada em apêndice subquelado, lembrando uma pata de louva-a-deus.[2]</p>
+            <!-- I took the table structure from W3SHOOLS Website: https://www.w3schools.com/html/html_tables.asp -->
+            <table>
+                <tr>
+                    <th>Classificação Científica</th>
+                </tr>
+                <tr>
+                    <!-- This style of table with title centralized I got from inspecting the Wikipedia site: https://pt.wikipedia.org/wiki/Stomatopoda -->
+                    <table>
+                        <tr>
+                            <td>Reino:</td>
+                            <td>Animalia</td>
+                        </tr>
+                        <tr>
+                            <td>Filo:</td>
+                            <td>Artdropoda</td>
+                        </tr>
+                        <tr>
+                            <td>Subfilo:</td>
+                            <td>Crustacea</td>
+                        </tr>
+                        <tr>
+                            <td>Classe:</td>
+                            <td>Malacostraca</td>
+                        </tr>
+                        <tr>
+                            <td>Subclasse:</td>
+                            <td>Hoplocarida</td>
+                        </tr>
+                        <tr>
+                            <td>Ordem:</td>
+                            <td>Stomatopoda</td>
+                        </tr>
+                    </table>
+                </tr>
+            </table>
         </section>
+        
     </article>
 </body>
 
