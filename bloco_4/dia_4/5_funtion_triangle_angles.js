@@ -14,5 +14,4 @@ function triangleAngles(a, b, c) {
     } else {
         return false;
     }
-
 }
