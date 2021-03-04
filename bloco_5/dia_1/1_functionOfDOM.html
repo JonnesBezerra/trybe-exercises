@@ -61,6 +61,10 @@
 			title[0].innerText = "Exercício 5.1 - JavaScript ";
 			let up = document.getElementById("upper-case");
 			up.innerText = up.innerText.toLocaleUpperCase();
+			let pTags = document.getElementsByTagName("p");
+			for (let i = 0; i < pTags.length; i++){
+				console.log(pTags[i].innerText);
+			}
     </script>
   </body>
 </html>
