@@ -33,7 +33,7 @@
     <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
     <div class="main-content">
       <div class="center-content">
-        <p>Texto padrão do nosso site</p>
+        <p id="upper-case">Texto padrão do nosso site</p>
         <p id="vision">-----</p>
         <p>Trybe</p>
       </div>
@@ -59,6 +59,8 @@
 			redCenter[0].style.background = "white";
 			let title = document.getElementsByClassName("title");
 			title[0].innerText = "Exercício 5.1 - JavaScript ";
+			let up = document.getElementById("upper-case");
+			up.innerText = up.innerText.toLocaleUpperCase();
     </script>
   </body>
 </html>
