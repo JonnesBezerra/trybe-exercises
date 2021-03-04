@@ -19,17 +19,18 @@
     <p id="second-paragraph" class="par">Segundo parágrafo!</p>
 
     <script>
-      var paragraph = document.getElementById("paragraph");
-      paragraph.style.color = "red";
-      let pageTitle = document.getElementById("page-title");
+      var paragraph = document.querySelector("#paragraph");
+      paragraph.style.color = "teal";
+      let pageTitle = document.querySelector("#page-title");
       pageTitle.style.color = "navy";
-      let secondP = document.getElementById("second-paragraph");
+      pageTitle.style.fontSize = "72px";
+      let secondP = document.querySelector("#second-paragraph");
       secondP.style.width = "10%";
-      let subtitle = document.getElementById("subtitle");
-      subtitle.style.fontSize = "72px";
-      let par = document.getElementsByClassName("par");
+      let subtitle = document.querySelector("#subtitle");
+      subtitle.style.fontSize = "36px";
+      let par = document.querySelectorAll(".par");
       par[0].style.border = "solid darkgreen 1px";
-      let p = document.getElementsByTagName("h4");
+      let p = document.querySelectorAll("h4");
       p[0].style.margin = "10px";
     </script>
 </body>
