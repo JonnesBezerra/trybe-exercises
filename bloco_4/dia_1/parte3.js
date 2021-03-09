@@ -6,7 +6,7 @@ const patientInfo = {
 };
 const patientEmail = 'ana@email.com';
 
-// console.log(typeof patientId);
+console.log(typeof patientId);
 
 let base = 5;
 let altura = 8;
