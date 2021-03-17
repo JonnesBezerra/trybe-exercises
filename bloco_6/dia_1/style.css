@@ -1,0 +1,33 @@
+body {
+    max-width: 80%;
+    margin: auto;
+}
+
+textarea {
+    resize: none;
+}
+
+div {
+    border: 1px solid teal;
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#submit-button, #reset-but {
+    float: left;
+    margin-top: 10px;
+}
+
+#reset-but {
+    float: right;
+}
+
+fieldset {
+    margin: 0;
+    border-radius: 5px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="" method="get">
+    <h1>Form</h1>
+    <fieldset>
+      <label for="input-name">Name
+        <input type="text" name="name" id="input-name" maxlength="40" placeholder="Type your full name" required>
+      </label>
+      <br>
+      <label for="input-email">E-mail
+        <input type="text" name="email" id="input-email" maxlength="50" placeholder="Type your best e-mail" required>
+      </label>
+      <br>
+      <label for="input-cpf">CPF
+        <input type="text" name="cpf" id="input-cpf" maxlength="11" placeholder="123.456.789-00" required>
+      </label>
+      <br>
+      <label for="input-address">Address
+        <input type="text" name="address" id="input-address" maxlength="200" placeholder="Queens, 402" required>
+      </label>
+      <br>
+      <label for="input-city">City
+        <input type="text" name="city" id="input-city" maxlength="28" placeholder="New Your City" required>
+      </label>
+      <br>
+      <label for="input-state">State
+        <select name="states" id="input-state" required></select>
+      </label>
+      <br>
+      <fieldset>
+        <legend>Home Type</legend>
+        <label for="input-home-1">House
+          <input type="radio" name="home" id="input-home-1" value="House">
+        </label>
+        <label for="input-home-2">Apartment
+          <input type="radio" name="home" id="input-home-2" value="Apartment">
+        </label>
+      </fieldset>
+    </fieldset>
+    <fieldset>
+      <label for="input-about">About you
+        <textarea name="about" id="input-about" cols="50" rows="5" required maxlength="1000" placeholder="Type something about you in 1000 characters or less."></textarea>
+      </label>
+      <br>
+      <label for="input-position">Position
+        <input type="text" name="position" id="input-position" maxlength="40" required placeholder="Your role">
+      </label>
+      <br>
+      <label for="input-description">Position Description
+        <input type="text" name="description" id="input-description" maxlength="500" required placeholder="What did you do in your role">
+      </label>
+      <br>
+      <label for="date-start">Start Date
+        <input type="text" name="start-date" id="date-start" maxlength="10" placeholder="dd/mm/yyyy" required>
+      </label>
+    </fieldset>
+    <button type="submit" id="submit-button">Submit</button>
+  </form>
+  
+  <button id="reset-but" type="reset">Reset</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
