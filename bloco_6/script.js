@@ -81,5 +81,37 @@ dateValidation();
 // stop submit event
 function stopSubmit(evt) {
   evt.preventDefault();
+  data();
 }
 submit.addEventListener('click', stopSubmit);
+
+
+function data() {
+  const name = document.querySelector('#input-name').value;
+  console.log(name);
+  const email = document.querySelector('#input-email').value;
+  const cpf = document.querySelector('#input-cpf').value;
+  const addr = document.querySelector('#input-address').value;
+  const city = document.querySelector('#input-city').value;
+  const state = document.querySelector('#input-state').value;
+  const about = document.querySelector('#input-about').value;
+  const role = document.querySelector('#input-position').value;
+  const desc = document.querySelector('#input-description').value;
+  const date = document.querySelector('#date-start').value;
+  const body = document.querySelector('body');
+  let div = document.createElement('div');
+  div.innerHTML = `
+    <h1>Your Data:</h1>
+    Name: ${name}<br>
+    E-mail: ${email}<br>
+    CPF: ${cpf}<br>
+    Address: ${addr}<br>
+    City: ${city}<br>
+    State: ${state}<br>
+    About You: ${about}<br>
+    Your Role: ${role}<br>
+    Role Description: ${desc}<br>
+    Start Date: ${date}<br>
+  `;
+  body.appendChild(div);
+}
