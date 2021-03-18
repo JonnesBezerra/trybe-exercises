@@ -1,0 +1,42 @@
+body {
+    max-width: 80%;
+    margin: auto;
+}
+
+textarea {
+    resize: none;
+}
+
+.userData {
+    border: 1px solid #48c774;
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#submit-button, #reset-but {
+    float: left;
+    margin-top: 10px;
+}
+
+#reset-but {
+    float: right;
+}
+
+fieldset {
+    margin: 0;
+    border-radius: 5px;
+}
+
+#div-state {
+    margin: 10px 0;
+}
+
+#label-state, #input-state {
+    display: inline-block;
+    vertical-align: middle;
+}
