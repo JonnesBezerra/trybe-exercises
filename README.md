@@ -10,23 +10,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-- [*] 1-3: _Unix & Bash - Part 1_
-- [*] 1-4: _Unix & Bash - Part 2_
-- [*] 1-5: _Shell Script_
+- [x] 1-3: _Unix & Bash - Part 1_
+- [x] 1-4: _Unix & Bash - Part 2_
+- [x] 1-5: _Shell Script_
 
 ##### Bloco 2: Git & GitHub
 
-- [*] 2-1: _O que é e para que serve?_
-- [*] 2-2: _Entendendo os comandos_
-- [*] 2-3: _Internet - Entendendo como ela funciona_
+- [x] 2-1: _O que é e para que serve?_
+- [x] 2-2: _Entendendo os comandos_
+- [x] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
 
-- [*] 3-1: _HTML & CSS - Estruturas de pÃ¡gina_
-- [*] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [*] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [*] 3-4: _HTML Semântico_
-- [ ] 3-5: _[Projeto - HTML & CSS]()_
+- [x] 3-1: _HTML & CSS - Estruturas de página_
+- [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [x] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [x] 3-4: _HTML Semântico_
+- [x] 3-5: _[Projeto - HTML & CSS]()_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -38,19 +38,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [ ] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [*] 5-4: _JavaScript - Web Storage_
+- [x] 5-1: _JavaScript - DOM e seletores_
+- [x] 5-2: _JavaScript - Trabalhando com elementos_
+- [x] 5-3: _JavaScript - Eventos_
+- [x] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Projeto - Meme Generator]()_
-- [ ] 5-6: _[Projeto - Arte com Pixels]()_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
+- [x] 5-6: _[Projeto - Arte com Pixels]()_
+- [x] 5-7: _[Projeto - Lista de tarefas]()_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avanÃ§ado
 
-- [ ] 6-1: _HTML & CSS - Forms_
+- [x] 6-1: _HTML & CSS - Forms_
 - [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [ ] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
