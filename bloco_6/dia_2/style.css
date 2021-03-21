@@ -1,5 +1,7 @@
+/* @import '' */
+
 body {
-    max-width: 80%;
+    max-width: 40%;
     margin: auto;
 }
 

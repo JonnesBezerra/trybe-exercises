@@ -6,43 +6,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form</title>
+  <link href="./popup-validation-master/bin/validation.min.css" rel="stylesheet">
+  <script src="./Just-validate-master/dist/js/just-validate.min.js"></script>
+  <link rel="stylesheet" href="./Just-validate-master/dist/css/justValidateTooltip.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
   <link rel="stylesheet" type="text/css" href="node_modules/bulma/css/bulma.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <form action="" method="get">
+  <form action="" method="get" id="myForm" class="js-form form">
     <h1 class="title is-1">Form</h1>
     <div class="field">
       <fieldset class="control">
         <label for="input-name">Name
-          <input class="input is-info" type="text" name="name" id="input-name" maxlength="40"
-            placeholder="Type your full name" required>
+          <input class="input is-info form__input form-control" type="text" name="name" data-validate-field="name" id="input-name" maxlength="40"
+            placeholder="Type your full name" >
         </label>
         <br>
         <label for="input-email">E-mail
-          <input class="input is-info" type="email" name="email" id="input-email" maxlength="50"
+          <input class="input is-info" type="email" name="email" data-validate-field="email" id="input-email" maxlength="50"
             placeholder="Type your best e-mail" required>
         </label>
         <br>
         <label for="input-cpf">CPF
-          <input class="input is-info" type="text" name="cpf" id="input-cpf" maxlength="11" placeholder="123.456.789-00"
+          <input class="input is-info" type="text" name="cpf" data-validate-field="cpf" id="input-cpf" maxlength="11" placeholder="123.456.789-00"
             required>
         </label>
         <br>
         <label for="input-address">Address
-          <input class="input is-info" type="text" name="address" id="input-address" maxlength="200"
+          <input class="input is-info" type="text" name="address" data-validate-field="address" id="input-address" maxlength="200"
             placeholder="Queens, 402" required>
         </label>
         <br>
         <label for="input-city">City
-          <input class="input is-info" type="text" name="city" id="input-city" maxlength="28"
+          <input class="input is-info" type="text" name="city" data-validate-field="city" id="input-city" maxlength="28"
             placeholder="New Your City" required>
         </label>
         <br>
         <div class="select is-info" id="div-state">
           <label for="input-state" id="label-state">State
-            <select name="states" id="input-state" required></select>
+            <select name="states" id="input-state" data-validate-field="state" id="state" required></select>
           </label>
         </div>
         <br>
