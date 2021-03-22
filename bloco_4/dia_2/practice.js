@@ -41,3 +41,26 @@ if (odd === 0) {
 } else {
     console.log(`Odd amount: ${odd}`);
 }
+
+let smaller = numbers[0];
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] < smaller) {
+        smaller = numbers[i];
+    }
+}
+
+console.log(`Smaller value: ${smaller}`);
+
+let array = [];
+
+for (let i = 0; i < 25; i++) {
+    array.push(i);
+}
+console.log(`Array with FOR: ${array}`);
+
+let division = [];
+
+for (let i = 0; i < array.length; i++) {
+    division.push(array[i] / 2);
+}
+console.log(`Array divided: ${division}`);
