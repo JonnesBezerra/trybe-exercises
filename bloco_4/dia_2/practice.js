@@ -27,4 +27,17 @@ for (let i = 0; i < numbers.length; i++) {
         bigger = numbers[i];
     }
 }
-console.log(bigger);
+console.log(`Bigger value: ${bigger}`);
+
+let odd = 0;
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 !== 0) {
+        odd++;
+    }
+}
+
+if (odd === 0) {
+    console.log("nenhum valor ímpar encontrado");
+} else {
+    console.log(`Odd amount: ${odd}`);
+}
