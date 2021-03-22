@@ -23,4 +23,19 @@ if (n > 1) {
     }
 }
 
-let 
+
+if (n > 1) {
+    for (let i = 0; i < n; i++) {
+        let str = '';
+        let manySpaces = 4 - i;
+        for (let i = 0; i < n; i++) {
+            if (manySpaces > 0) {
+                str += ' ';
+            } else {
+                str += '*';
+            }
+            manySpaces--;
+        }
+        console.log(str);
+    }
+}
