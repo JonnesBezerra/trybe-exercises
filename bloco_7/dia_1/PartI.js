@@ -11,3 +11,15 @@ const testingScope = escopo => {
   }
 
   testingScope(true);
+
+  const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+
+  // Seu código aqui.
+  const sortArray = array => {
+    const sortedArray = array.sort((a, b) => a - b);
+    return sortedArray;
+  }
+
+  const sorted = sortArray(oddsAndEvens);
+
+  console.log(`Os números ${sorted} se encontram ordenados de forma crescente!`);
