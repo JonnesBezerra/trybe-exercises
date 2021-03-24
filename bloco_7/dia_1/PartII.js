@@ -31,7 +31,7 @@ const biggestWord = phrase => {
 
 console.log(biggestWord('Antônio foi no banheiro e não sabemos o que aconteceu'));
 
-
+// 3)
 const changeString = (string) => {
     const anystring = 'Tryber x aqui!'
     return anystring.replace('x', `${string}`);
@@ -41,6 +41,7 @@ console.log(changeString('Ok'));
 
 const skills = ['Programming Logic', 'HTML', 'JS', 'CSS', 'Comunication'];
 
+// 4)
 const stringFunc1 = changeString('Bebeto');
 
 const func = (stringFunc1) => {
