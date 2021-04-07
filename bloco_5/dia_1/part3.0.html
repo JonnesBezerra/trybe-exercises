@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .par {
+        font-size: 26px;
+        text-decoration: solid;
+      }
+    </style>
+</head>
+<body>
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph" class="par">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph" class="par">Segundo parágrafo!</p>
+
+    <script>
+      var paragraph = document.querySelector("#paragraph");
+      paragraph.style.color = "teal";
+      let pageTitle = document.querySelector("#page-title");
+      pageTitle.style.color = "navy";
+      pageTitle.style.fontSize = "72px";
+      let secondP = document.querySelector("#second-paragraph");
+      secondP.style.width = "10%";
+      let subtitle = document.querySelector("#subtitle");
+      subtitle.style.fontSize = "36px";
+      let par = document.querySelectorAll(".par");
+      par[0].style.border = "solid darkgreen 1px";
+      let p = document.querySelectorAll("h4");
+      p[0].style.margin = "10px";
+    </script>
+</body>
+</html>
