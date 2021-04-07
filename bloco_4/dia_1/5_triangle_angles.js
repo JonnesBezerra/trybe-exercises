@@ -3,7 +3,7 @@ let b = 60;
 let c = 60;
 let triangle = a + b + c;
 
-if (triangle == 180) {
+if (triangle === 180) {
     console.log(true);
 } else {
     console.log(false);

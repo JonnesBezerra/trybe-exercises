@@ -1,4 +1,7 @@
 let a = 1, b = 2;
-let addition = a + b;
 
-console.log(addition);
+console.log(`Soma: ${a + b}`);
+console.log(`Subtração: ${a - b}`);
+console.log(`Multiplicação: ${a * b}`);
+console.log(`Divisão: ${a / b}`);
+console.log(`Módulo: ${a % b}`);
