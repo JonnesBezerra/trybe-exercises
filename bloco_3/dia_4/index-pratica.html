@@ -1,54 +1,217 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <style>
-        * {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        h1 {
-            text-align: center;
-            
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Stomatopoda</title>
+  <style>
+    * {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
-        article {
-            margin-left: 12%;
-        }
+    h1 {
+      text-align: center;
+      text-decoration: overline darkgreen;
+    }
 
-        nav {
-            margin-left: 10%;
-        }
-        a {
-            color: darkgreen;
-        }
+    h2 {
+      margin-top: 5%;
+    }
 
-        img {
-            margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    </style>
+    article {
+      margin-left: 12%;
+    }
+
+    nav {
+      margin-left: 10%;
+    }
+
+    a {
+      color: darkgreen;
+      margin-right: 20px;
+    }
+
+    p {
+      width: 90%;
+    }
+
+    /* I took this CSS Style table from W3SCHOOLS Website: 
+            https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro 
+            and I change some things to make sense inside my page */
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 350px;
+      margin-left: 160px;
+    }
+
+    table:first-of-type {
+      margin-top: 30px;
+    }
+
+    td,
+    th {
+      border: 1px solid darkgreen;
+      text-align: left;
+      padding: 8px;
+    }
+
+    th {
+      text-align: center;
+      background-color: lightgreen;
+    }
+
+    tr:nth-child(even) {
+      background-color: lightgreen;
+    }
+
+    img {
+      width: 636px;
+      padding: 8px;
+      background-color: lightgreen;
+    }
+
+    img:nth-child(1) {
+      margin-top: 30px;
+    }
+
+    img:hover:nth-child(1) {
+      background-color: green;
+    }
+
+    .subtitle {
+      margin-top: 30px;
+      margin-bottom: 0;
+    }
+
+    /* Some of the code below I took from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_aside2 */
+    aside {
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-left: 15px;
+      margin-right: 15%;
+      float: right;
+      font-style: italic;
+      background-color: lightgreen;
+      margin-bottom: 100%;
+      margin-top: 7%;
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 50px;
+      background-color: darkgreen;
+      color: white;
+    }
+    body {
+      margin: 0;
+    }
+  </style>
 </head>
 
 <body>
-    <!--insira os elementos aqui-->
-    <header>
-        <h1 id="title">Soco a 80km/h: Conheça o Stomatopoda.</h1>
-    </header>
-    <nav>
-        <a href="#home">Página Inicial</a>
-        <a href="#about">Sobre</a>
-        <a href="#contact">Contato</a>
-    </nav>
-    <article>
-        <img src="https://i.natgeofe.com/n/f46158fc-9bf2-4453-8a15-6b11b323c08e/Peacock-mantis.jpg?wp=1&w=636&h=424" alt="Stomatopoda">
-        <h2>Fatos sobre o Stomatopoda</h2>
-        <section>
-            
-        </section>
-    </article>
+  <!--insira os elementos aqui-->
+  <header>
+    <h1 id="title">Soco a 80km/h: Conheça o Stomatopoda.</h1>
+  </header>
+  <nav>
+    <a href="#home">Página Inicial</a>
+    <a href="#about">Sobre</a>
+    <a href="#contact">Contato</a>
+  </nav>
+  <aside>
+    <a href="https://www.youtube.com/watch?v=E0Li1k5hGBE" target="_blank" rel="noopener noreferrer">Veja ao vídeo!</a>
+  </aside>
+  <article>
+    <h2>Fatos sobre o Stomatopoda</h2>
+    <img src="https://i.natgeofe.com/n/f46158fc-9bf2-4453-8a15-6b11b323c08e/Peacock-mantis.jpg?wp=1&w=636&h=424"
+      alt="Stomatopoda">
+    <section>
+      <h3>Informações Gerais</h3>
+      <p>Stomatopoda (ou estomatópode), chamados popularmente de tamarutacas ou de lacraias-do-mar no Brasil, é uma
+        ordem de crustáceos marinhos da subclasse Hoplocarida, que agrupa cerca de 400 espécies, caracterizadas
+        principalmente pela morfologia da segunda pata torácica, que é modificada em apêndice subquelado, lembrando uma
+        pata de louva-a-deus.[2]</p>
+      <!-- I took the table structure from W3SHOOLS Website: https://www.w3schools.com/html/html_tables.asp -->
+      <table>
+        <tr>
+          <th>Classificação Científica</th>
+        </tr>
+        <tr>
+          <!-- This style of table with title centralized I got from inspecting the Wikipedia site: https://pt.wikipedia.org/wiki/Stomatopoda -->
+          <table>
+            <tr>
+              <td>Reino:</td>
+              <td>Animalia</td>
+            </tr>
+            <tr>
+              <td>Filo:</td>
+              <td>Artdropoda</td>
+            </tr>
+            <tr>
+              <td>Subfilo:</td>
+              <td>Crustacea</td>
+            </tr>
+            <tr>
+              <td>Classe:</td>
+              <td>Malacostraca</td>
+            </tr>
+            <tr>
+              <td>Subclasse:</td>
+              <td>Hoplocarida</td>
+            </tr>
+            <tr>
+              <td>Ordem:</td>
+              <td>Stomatopoda</td>
+            </tr>
+            <tr>
+              <td>Nome Científico:</td>
+              <td><em>Odontodactylus scyllarus</em></td>
+            </tr>
+          </table>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h3 class="subtitle">Stomatopoda Beauty</h3>
+      <p>Stomatopoda have many colors, this is why they are <strong>SOOO PRETTY!</strong></p>
+      <a href="https://theoatmeal.com/comics/mantis_shrimp" target="_blank"><img
+          src="https://s3.amazonaws.com/theoatmeal-img/comics/mantis_shrimp/mantis_shrimp_3.jpg"
+          alt="Stomatopoda beauty"></a>
+    </section>
+
+    <section>
+      <h3 class="subtitle">Stomatopoda Darkness</h3>
+      <p>Aquários normalmente não abrigam <em>camarões louva-a-deus</em> porque eles tendem a <strong>abater</strong>
+        todas as outras criaturas com as quais compartilham o aquário. E também podem <strong>quebrar</strong> o vidro
+        do aquário.
+        <br><br>
+        <em>"UmDoisTrês Morte!"</em></p>
+      <a href="https://theoatmeal.com/comics/mantis_shrimp" target="_blank"><img
+          src="https://s3.amazonaws.com/theoatmeal-img/comics/mantis_shrimp/mantis_shrimp2_7.png"
+          alt="Stomatopoda Darkness"></a>
+    </section>
+
+    <section>
+      <h4>Referências Bibliográficas:</h4>
+      <a href="https://www.nationalgeographic.com/science/article/natures-most-amazing-eyes-just-got-a-bit-weirder"
+        target="_blank">https://www.nationalgeographic.com/science/article/natures-most-amazing-eyes-just-got-a-bit-weirder</a>
+      <br>
+      <a href="https://theoatmeal.com/comics/mantis_shrimp"
+        target="_blank">https://theoatmeal.com/comics/mantis_shrimp</a>
+      <br>
+      <a href="https://pt.wikipedia.org/wiki/Stomatopoda" target="_blank">https://pt.wikipedia.org/wiki/Stomatopoda</a>
+    </section>
+
+  </article>
+
+  <footer>
+    Conteúdo compilado por JONNES BEZERRA, 2021
+  </footer>
 </body>
 
 </html>
